@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <LangVersion>latest</LangVersion>
+        <Title>Text Clustering</Title>
+        <Description>A simple text clustering algorithm.</Description>
+        <AssemblyTitle>TextClustering</AssemblyTitle>
+        <VersionPrefix>1.0.0</VersionPrefix>
+        <AssemblyName>TextClustering</AssemblyName>
+        <PackageId>TextClustering</PackageId>
+        <Authors>doxakis</Authors>
+        <PackageTags>Hdbscan;unsupervised machine learning;clustering algorithm</PackageTags>
+        <PackageProjectUrl>https://github.com/doxakis/TextClustering</PackageProjectUrl>
+        <PackageLicenseUrl>https://github.com/doxakis/TextClustering/blob/master/LICENSE</PackageLicenseUrl>
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/doxakis/TextClustering</RepositoryUrl>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="HdbscanSharp" Version="2.0.0" />
+        <PackageReference Include="dotnet-stop-words" Version="1.1.0" />
+    </ItemGroup>
+</Project>
